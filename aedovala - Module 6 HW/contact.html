@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Retroid</title>
+        <meta name="author" content="Ahmare Dovala">
+        <link rel="stylesheet" href="retro.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    </head>
+    </head>
+    <body>
+    <div id="wrapper">
+        <header>
+            <h1>RETROID</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="whyretroid.html">Why Retroid?</a></li>
+                    <li><a href="#">Contact Us Now!</a></li>
+                </ul>    
+            </nav>
+
+        </header>
+        <div id="contacthero">
+
+        </div>
+
+        <main>
+            <section>
+            <h2>Forms and Form Styles</h2>
+            <p>Remember, form elements are all inline elements, except for the fieldset and the form itself. That will affect the styles you need to add to them in order to get them to display properly.</p>
+            </section>
+            <p class="notice"><strong>NOTE:</strong> this form may display differently if you are not using Chrome. If you notice that your select menu does not look like the one in the screenshot, work in Chrome instead.</p>
+            <section id="form">
+                <h3>Contact Us</h3>
+                <p>If you would like more information, please fill out the form below. Required fields are marked with an asterisk (<span class="required">*</span>).</p>
+                <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+                    <label for="my-name">Name<span class="required">*</span></label>
+                    <input type="text" name="my-name" id="my-name" required>
+                    <label for="my-address">Address</label>
+                    <input type="text" name="my-address" id="my-address">
+                    <label for="my-city">City</label>
+                    <input type="text" name="my-city" id="my-city">
+                    <label for="my-state">State</label>
+                    <div id="arrow">
+                        <select name="my-state" id="my-state">
+                        <option value="">Choose Your State</option>
+                        <option value="al">AL</option>
+                        <option value="ak">AK</option>
+                        <option value="az">AZ</option>
+                        <option value="ar">AR</option>
+                        <option value="ca">CA</option>
+                        <option value="co">CO</option>
+                        <option value="ct">CT</option>
+                        <option value="de">DE</option>
+                        <option value="dc">DC</option>
+                        <option value="fl">FL</option>
+                        <option value="ga">GA</option>
+                        <option value="hi">HI</option>
+                        <option value="id">ID</option>
+                        <option value="il">IL</option>
+                        <option value="in">IN</option>
+                        <option value="ia">IA</option>
+                        <option value="ks">KS</option>
+                        <option value="ky">KY</option>
+                        <option value="la">LA</option>
+                        <option value="me">ME</option>
+                        <option value="md">MD</option>
+                        <option value="ma">MA</option>
+                        <option value="mi">MI</option>
+                        <option value="mn">MN</option>
+                        <option value="ms">MS</option>
+                        <option value="mo">MO</option>
+                        <option value="mt">MT</option>
+                        <option value="ne">NE</option>
+                        <option value="nv">NV</option>
+                        <option value="nh">NH</option>
+                        <option value="nj">NJ</option>
+                        <option value="nm">NM</option>
+                        <option value="ny">NY</option>
+                        <option value="nc">NC</option>
+                        <option value="nd">ND</option>
+                        <option value="oh">OH</option>
+                        <option value="ok">OK</option>
+                        <option value="or">OR</option>
+                        <option value="pa">PA</option>
+                        <option value="ri">RI</option>
+                        <option value="sc">SC</option>
+                        <option value="sd">SD</option>
+                        <option value="tn">TN</option>
+                        <option value="tx">TX</option>
+                        <option value="ut">UT</option>
+                        <option value="vt">VT</option>
+                        <option value="va">VA</option>
+                        <option value="wa">WA</option>
+                        <option value="wv">WV</option>
+                        <option value="wi">WI</option>
+                        <option value="wy">WY</option>
+                    </select>
+                    </div>
+                    <label for="my-phone">Phone</label>
+                    <input type="tel" name="my-phone" id="my-phone">
+                    <label for="my-email">Email<span class="required">*</span></label>
+                    <input type="email" name="my-email" id="my-email" required>
+                    <fieldset>
+                        <legend>Preferred Method of Contact</legend>
+                        <input type="radio" name="contact-pref" id="pref-email" checked>
+                        <label for="pref-email">Email</label>
+                        <input type="radio" name="contact-pref" id="pref-phone">
+                        <label for="pref-phone">Phone</label>
+                    </fieldset>
+                    <label for="my-comments">Comments</label>
+                    <textarea name="my-comments" id="my-comments"></textarea>
+                    
+                    <input type="submit" name="my-submit" id="my-submit" value="Submit Form">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>Copyright &copy; 2023 - CIS300 - Ahmare Dovala</p>
+        </footer>
+    </div>
+    </body>
+</html>
